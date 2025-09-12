@@ -1,2 +1,18 @@
-# eSim-task-
-Introduction → eSim needs external tools (Ngspice, KiCad, etc.), manual setup is hard.  Problem → Users waste time installing and managing tools.  Solution → Python-based automated tool manager.  Modules → Dependency Checker, Installer, Logger.  Architecture Diagram (simple arrows).  Future Work → updates, GUI, cross-platform.
+# Automated Tool Manager for eSim
+
+## Features
+- Checks if Ngspice is installed
+- Installs Ngspice automatically (Linux/Windows)
+- Checks Ngspice version
+- Logs actions in tool_manager.log
+
+## Requirements
+- Python 3
+- Internet connection
+- apt (Linux) or Chocolatey (Windows)
+
+## Usage
+1. Clone this repo
+2. Run:
+   python tool_manager.py
+3. Check `tool_manager.log` for details
